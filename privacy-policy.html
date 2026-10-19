@@ -1,107 +1,217 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Privacy Policy – Habit Tracker-Kickoff</title>
-    <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-            max-width: 800px;
-            margin: 40px auto;
-            padding: 0 20px;
-            color: #333;
-            line-height: 1.7;
-        }
-        h1 { color: #5B21B6; }
-        h2 { color: #4C1D95; margin-top: 32px; }
-        a  { color: #7C3AED; }
-        hr { border: none; border-top: 1px solid #e5e7eb; margin: 32px 0; }
-        .updated { color: #6b7280; font-size: 0.9em; }
-    </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Habit Tracker-Kickoff</title>
+<style>
+  :root {
+    --bg: #ffffff;
+    --fg: #1a1c1f;
+    --muted: #565b63;
+    --rule: #e2e5ea;
+    --accent: #2f6db5;
+    --card: #f5f7fa;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #101215;
+      --fg: #eceef2;
+      --muted: #a4a9b3;
+      --rule: #2a2e35;
+      --accent: #84b3ea;
+      --card: #191c21;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 2.5rem 1.25rem 5rem;
+    background: var(--bg);
+    color: var(--fg);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Helvetica, Arial, sans-serif;
+  }
+  main { max-width: 42rem; margin: 0 auto; }
+  h1 {
+    font-size: 1.9rem;
+    line-height: 1.2;
+    margin: 0 0 .35rem;
+    letter-spacing: -.01em;
+  }
+  .updated { color: var(--muted); font-size: .9rem; margin: 0 0 2rem; }
+  h2 {
+    font-size: 1.15rem;
+    margin: 2.4rem 0 .6rem;
+    padding-top: 1.4rem;
+    border-top: 1px solid var(--rule);
+  }
+  h2:first-of-type { border-top: none; padding-top: 0; }
+  ul { padding-left: 1.2rem; }
+  li { margin: .35rem 0; }
+  a { color: var(--accent); overflow-wrap: anywhere; }
+  strong { font-weight: 650; }
+  .lede {
+    background: var(--card);
+    border-left: 3px solid var(--accent);
+    padding: 1rem 1.1rem;
+    border-radius: 0 8px 8px 0;
+    margin: 0 0 2rem;
+  }
+  .lede p:last-child { margin-bottom: 0; }
+  code {
+    background: var(--card);
+    padding: .12em .4em;
+    border-radius: 4px;
+    font-size: .88em;
+    overflow-wrap: anywhere;
+  }
+  footer {
+    margin-top: 3rem;
+    padding-top: 1.4rem;
+    border-top: 1px solid var(--rule);
+    color: var(--muted);
+    font-size: .9rem;
+  }
+</style>
 </head>
 <body>
+<main>
 
-<h1>Privacy Policy</h1>
-<p class="updated">Last updated: March 12, 2026</p>
+<h1>Privacy Policy — Habit Tracker-Kickoff</h1>
+<p class="updated">Last updated: 19 October 2026</p>
 
-<p>
-    This Privacy Policy describes how <strong>Habit Tracker-Kickoff</strong>
-    ("we", "our", or "the app") handles your information when you use our
-    Android application.
-</p>
+<div class="lede">
+  <p>Habit Tracker-Kickoff helps you build habits, keep streaks and write short
+  journal notes. It has <strong>no account, no login and no server of its
+  own</strong>. Everything you enter stays on your phone.</p>
+  <p>The app does show adverts. Adverts are the one part of the app that
+  involves another company: Google AdMob serves them and collects some
+  information about your device to do so. That is described in full below.</p>
+</div>
 
-<hr />
-
-<h2>1. Information We Collect</h2>
-<p>
-    <strong>Habit Tracker-Kickoff does not collect, store, or transmit any
-    personally identifiable information.</strong> All habit data you create
-    (habit names, completions, streaks, notes) is stored exclusively on your
-    device using a local database and is never sent to any server.
-</p>
-
-<h2>2. Advertising (Google AdMob)</h2>
-<p>
-    The app displays ads provided by <strong>Google AdMob</strong>. AdMob may
-    collect and use certain information to serve relevant ads, including:
-</p>
+<h2>What the app stores on your device</h2>
+<p>In the app's private storage on your phone:</p>
 <ul>
-    <li>Advertising ID (a resettable, non-personal device identifier)</li>
-    <li>Approximate location (country/region level, derived from IP address)</li>
-    <li>Device information (OS version, screen size, language)</li>
-    <li>Ad interaction data (impressions, clicks)</li>
+  <li>Your habits, schedules, reminders, check-ins and streaks</li>
+  <li>Journal notes, check-in answers, mood entries and focus sessions</li>
+  <li>The name you choose to show on the Today screen, your goals and rewards</li>
+  <li>Your settings, including an optional app-lock PIN, which is stored only
+      as a salted hash and never in readable form</li>
 </ul>
-<p>
-    This data is collected and processed by Google in accordance with their
-    policies. You can review Google's privacy practices here:
-    <a href="https://policies.google.com/privacy" target="_blank">
-        https://policies.google.com/privacy
-    </a>
-</p>
-<p>
-    You can opt out of personalised ads at any time by going to your device's
-    <strong>Settings → Google → Ads → Delete advertising ID</strong>
-    (Android 12+) or by enabling <em>Opt out of Ads Personalisation</em> on
-    older versions.
-</p>
+<p>None of this is sent to the developer or to any server run by the
+developer. Other apps cannot read it. Uninstalling the app, or using
+<strong>Settings → Delete all data</strong>, removes it permanently.</p>
 
-<h2>3. Data Storage</h2>
-<p>
-    All app data (habits, settings, profile) is stored locally on your device
-    using Android's Room database and DataStore. We do not have access to this
-    data. Uninstalling the app permanently deletes all stored data.
-</p>
+<h2>Backups you control</h2>
+<ul>
+  <li><strong>Android backup.</strong> If you have turned on backup for your
+      phone in Android settings, Android may include the app's habit database
+      in your device backup to your Google account, so it can be restored on a
+      new phone. This is handled by Android and Google, not by the developer.
+      Your app-lock PIN and other settings are never included.</li>
+  <li><strong>Export backup.</strong> Settings → Export backup creates a file
+      in a place you choose. It is only shared if you share it yourself.</li>
+  <li><strong>Share progress.</strong> The share card is an image created on
+      your phone. It is only sent where you choose to send it, and private
+      habits are left out.</li>
+</ul>
 
-<h2>4. Notifications</h2>
-<p>
-    If you enable reminders, the app schedules local notifications on your
-    device using Android WorkManager. No notification data is transmitted
-    externally.
-</p>
+<h2>Adverts, and what Google collects</h2>
+<p>The app is free and shows adverts supplied by <strong>Google AdMob</strong>:</p>
+<ul>
+  <li>Small banner adverts on some screens</li>
+  <li>An occasional full-screen advert after you finish a focus session or
+      close the weekly review, at most once a day</li>
+  <li>An optional video advert you can choose to watch to earn a streak
+      freeze. It only plays if you tap to watch it.</li>
+</ul>
+<p>To select and measure adverts, Google may collect and process:</p>
+<ul>
+  <li>Your device's <strong>advertising ID</strong>, a resettable identifier
+      used for advertising</li>
+  <li><strong>IP address</strong>, and approximate location derived from it</li>
+  <li><strong>Device information</strong> such as model, operating system
+      version and language</li>
+  <li><strong>Ad interaction data</strong>: that an advert was shown, and
+      whether it was tapped</li>
+</ul>
+<p>Google acts as an independent controller of this data. What it does with it
+is governed by Google's own policies, not by this one:</p>
+<ul>
+  <li><a href="https://policies.google.com/privacy">Google Privacy Policy</a></li>
+  <li><a href="https://policies.google.com/technologies/partner-sites">How Google
+      uses information from sites or apps that use its services</a></li>
+</ul>
+<p>The developer does not receive any of this information. AdMob shows the
+developer only aggregate totals, such as how many adverts were shown and the
+earnings, never anything about an individual person. Your habits, notes and
+other app data are never shared with Google or any advertiser.</p>
 
-<h2>5. Children's Privacy</h2>
-<p>
-    The app is not directed at children under the age of 13. We do not
-    knowingly collect personal information from children.
-</p>
+<h2>Your choices</h2>
+<p><strong>Consent (EEA, UK and Switzerland).</strong> If you are in a region
+covered by the GDPR, the app asks for your consent before personalised
+adverts are served, using Google's User Messaging Platform. You can change or
+withdraw that choice at any time from <strong>Settings → Privacy
+options</strong>.</p>
+<p><strong>Everyone.</strong> You can limit ad tracking in Android settings:
+Settings → Google → Ads → <em>Delete advertising ID</em> (or <em>Opt out of
+Ads Personalisation</em> on older versions). This does not stop adverts; it
+stops them being personalised.</p>
 
-<h2>6. Changes to This Policy</h2>
-<p>
-    We may update this Privacy Policy from time to time. Any changes will be
-    reflected on this page with an updated date. Continued use of the app after
-    changes constitutes acceptance of the updated policy.
-</p>
+<h2>Permissions the app requests</h2>
+<ul>
+  <li><code>POST_NOTIFICATIONS</code>: to show the reminders you set up.</li>
+  <li><code>SCHEDULE_EXACT_ALARM</code>: so reminders arrive at the exact time
+      you chose rather than up to an hour late.</li>
+  <li><code>RECEIVE_BOOT_COMPLETED</code>: to restore your reminders after the
+      phone restarts.</li>
+  <li><code>INTERNET</code> and <code>ACCESS_NETWORK_STATE</code>: used only by
+      the advertising SDK to fetch adverts. The app itself makes no network
+      requests.</li>
+  <li><code>com.google.android.gms.permission.AD_ID</code> and Android's
+      <code>ACCESS_ADSERVICES_*</code> permissions: access to the advertising ID
+      and Android's privacy-preserving ad APIs, used only by the advertising
+      SDK.</li>
+  <li><code>WAKE_LOCK</code> and <code>FOREGROUND_SERVICE</code>: added by
+      Android's WorkManager library so scheduled background tasks, such as the
+      weekly summary, can finish.</li>
+</ul>
+<p>Reminders are created and shown entirely on your phone. No reminder or
+notification content leaves the device.</p>
 
-<h2>7. Contact Us</h2>
-<p>
-    If you have any questions about this Privacy Policy, please contact us at:
-    <br />
-    <a href="mailto:orrebhaskar88@gmail.com">orrebhaskar88@gmail.com</a>
-</p>
+<h2>What is never collected</h2>
+<ul>
+  <li>No email address, phone number or account of any kind</li>
+  <li>No precise location</li>
+  <li>No contacts, photos, microphone or camera access</li>
+  <li>No analytics or crash-reporting SDK</li>
+  <li>Nothing at all by the developer directly. The only data collection is by
+      Google's advertising SDK, as described above.</li>
+</ul>
 
-<hr />
-<p class="updated">© 2026 Habit Tracker-Kickoff. All rights reserved.</p>
+<h2>Children</h2>
+<p>The app is not directed at children under 13. Because it serves advertising
+that uses a device advertising identifier, it is intended for a general
+audience aged 13 and over.</p>
 
+<h2>Data deletion</h2>
+<p>Delete your app data with <strong>Settings → Delete all data</strong>, or by
+uninstalling the app. To reset the advertising identifier held by Google, use
+the Android setting above. Requests about data Google holds should be directed
+to Google using their privacy policy.</p>
+
+<h2>Changes to this policy</h2>
+<p>If a future version changes what is collected, this policy will be updated
+before that version is published, and the date at the top will change.</p>
+
+<h2>Contact</h2>
+<p>Questions about this policy:
+<a href="mailto:orrebhaskar88@gmail.com">orrebhaskar88@gmail.com</a></p>
+
+<footer>Habit Tracker-Kickoff privacy policy. This page is the canonical
+version referenced by the app and its AdMob configuration.</footer>
+
+</main>
 </body>
 </html>
